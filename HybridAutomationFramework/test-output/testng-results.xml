@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="7" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T08:17:14 IST" name="Suite" finished-at="2023-08-01T08:19:51 IST" duration-ms="156856">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T08:17:14 IST" name="Test" finished-at="2023-08-01T08:19:51 IST" duration-ms="156856">
+      <class name="com.orange.qa.testcases.AdminManagementTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:17:14 IST" name="setUp" finished-at="2023-08-01T08:17:28 IST" duration-ms="13399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="validateUserSearch(java.util.HashMap)[pri:1, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:17:28 IST" name="validateUserSearch" data-provider="getAdminData" finished-at="2023-08-01T08:17:52 IST" duration-ms="24348" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, userRole=Admin, status=Enabled}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
+at com.orange.qa.pages.AdminManagementPage.searchUser(AdminManagementPage.java:55)
+at com.orange.qa.testcases.AdminManagementTest.validateUserSearch(AdminManagementTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:17:52 IST" name="tearDown" finished-at="2023-08-01T08:17:52 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:17:52 IST" name="setUp" finished-at="2023-08-01T08:18:06 IST" duration-ms="14285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="validateUserSearch(java.util.HashMap)[pri:1, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:18:06 IST" name="validateUserSearch" data-provider="getAdminData" finished-at="2023-08-01T08:18:30 IST" duration-ms="23566" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, userRole=Admin, status=Enabled}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
+at com.orange.qa.pages.AdminManagementPage.searchUser(AdminManagementPage.java:55)
+at com.orange.qa.testcases.AdminManagementTest.validateUserSearch(AdminManagementTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:18:30 IST" name="tearDown" finished-at="2023-08-01T08:18:30 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:18:30 IST" name="setUp" finished-at="2023-08-01T08:18:49 IST" duration-ms="18412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="validateUserSearch(java.util.HashMap)[pri:1, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:18:49 IST" name="validateUserSearch" data-provider="getAdminData" finished-at="2023-08-01T08:19:12 IST" duration-ms="23173" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, userRole=Admin, status=Enabled}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
+at com.orange.qa.pages.AdminManagementPage.searchUser(AdminManagementPage.java:55)
+at com.orange.qa.testcases.AdminManagementTest.validateUserSearch(AdminManagementTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:19:12 IST" name="tearDown" finished-at="2023-08-01T08:19:12 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:19:12 IST" name="setUp" finished-at="2023-08-01T08:19:27 IST" duration-ms="15102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserSearch(java.util.HashMap)[pri:1, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:19:27 IST" name="validateUserSearch" data-provider="getAdminData" finished-at="2023-08-01T08:19:50 IST" duration-ms="23209" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=Admin, userRole=Admin, status=Enabled}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vikrams-MacBook-Pro.local', ip: 'fe80:0:0:0:4d5:ede5:4e2a:cc18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
+at com.orange.qa.pages.AdminManagementPage.searchUser(AdminManagementPage.java:55)
+at com.orange.qa.testcases.AdminManagementTest.validateUserSearch(AdminManagementTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.AdminManagementTest@4c1909a3]" started-at="2023-08-01T08:19:50 IST" name="tearDown" finished-at="2023-08-01T08:19:51 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.qa.testcases.AdminManagementTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
